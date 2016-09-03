@@ -1,6 +1,10 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope) {
+  $('#saludar').on('click', function(){
+    alert ("hola mundo");
+  })
+})
 
 .controller('ChatsCtrl', function($scope, Chats, $timeout) {
   // With the new view caching in Ionic, Controllers are only called
@@ -30,6 +34,9 @@ angular.module('starter.controllers', [])
 })
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
+  $('#enviar').on('click', function(){
+    alert ("hola mundo");
+  })
   $scope.chat = Chats.get($stateParams.chatId);
 })
 

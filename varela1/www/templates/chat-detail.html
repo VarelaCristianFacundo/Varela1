@@ -6,7 +6,7 @@
 -->
 <ion-view view-title="{{chat.name}}">
   <ion-content class="padding">
-    <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
+    <img src="../img/interrogante.jpg" style="width: 64px; height: 64px">
     <p>
       <head>
   <title>Firebase Chat Example</title>
@@ -16,9 +16,8 @@
 </head>
 <body>
 <div id='messagesDiv'></div>
-<input type='text' id='nameInput' placeholder='Name'>
-<input type='text' id='messageInput' placeholder='Message...'>
-<input type='button' id='enviar'>
+<textarea name="comentarios" rows="10" cols="40" id='messageInput' placeholder='Message...'></textarea>
+<input type='button' id='enviar' value='Enviar' ng-onClick='Click()'>
 <script type='text/javascript'>
 
   // Aca ponemos la referencia a su firebase
@@ -27,7 +26,6 @@
   // Cuando presionen el ENTER , guardamos los datos en firebase.
   $('#enviar').click(function (e) {
       {
-        console.log ("hola");
       var name = $('#nameInput').val();
       var text = $('#messageInput').val();
       var fecha = Firebase.ServerValue.TIMESTAMP;
@@ -50,8 +48,7 @@
   });
 </script>
 </body>
-
-      {{chat.lastText}}
     </p>
   </ion-content>
 </ion-view>
+
