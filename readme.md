@@ -84,18 +84,62 @@ ionic cordova run ios
 
 ## Estructura de Archivos
 
-Varela1/
-├── www/
-│ ├── css/ # Archivos CSS generados
-│ ├── img/ # Imágenes usadas en la aplicación
-│ ├── js/ # Código JavaScript de la aplicación
-│ ├── lib/ # Bibliotecas de Ionic y AngularJS
-│ ├── templates/ # Plantillas HTML para las pestañas
-│ └── index.html # Página principal de la aplicación
-├── scss/ # Archivos SCSS de estilo
-├── resources/ # Iconos y splash screens
-├── gulpfile.js # Configuración de tareas de Gulp
-└── package.json # Configuración del proyecto y dependencias
+```
+└── 📁Varela1
+    └── 📁hooks
+    └── 📁resources
+        └── 📁android
+            └── 📁icon
+            └── 📁splash
+            └── icon.png
+            └── splash.png
+        └── icon.png
+        └── splash.png
+    └── 📁scss
+        └── ionic.app.scss
+    └── 📁www
+        └── 📁css
+            └── style.css
+        └── 📁img
+            └── adam.jpg
+            └── ben.png
+            └── ionic.png
+            └── max.png
+            └── mike.png
+            └── perry.png
+        └── 📁js
+            └── app.js
+            └── controllers.js
+            └── services.js
+        └── 📁lib
+            └── 📁ionic
+                └── 📁css
+                └── 📁fonts
+                └── 📁js
+                    └── 📁angular
+                    └── 📁angular-ui
+                └── 📁scss
+                    └── 📁ionicons
+        └── 📁templates
+            └── chat-detail.html
+            └── tab-account.html
+            └── tab-chats.html
+            └── tab-dash.html
+            └── tabs.html
+        └── index.html
+    └── .bowerrc
+    └── .editorconfig
+    └── .gitattributes
+    └── .gitignore
+    └── bower.json
+    └── config.xml
+    └── Desert.png
+    └── gulpfile.js
+    └── ionic.config.json
+    └── package-lock.json
+    └── package.json
+    └── readme.md
+```
 
 ## Notas
 
