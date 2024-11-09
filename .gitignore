@@ -1,47 +1,27 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Node modules
+node_modules/
 
-# Folder config file
-Desktop.ini
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Dependency directories
+bower_components/
+.sass-cache/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Generated files
+www/
+platforms/
+plugins/
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# macOS files
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Thumbnails
-._*
+# Gulp cache
+.gulp/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Optional - VS Code settings
+.vscode/
